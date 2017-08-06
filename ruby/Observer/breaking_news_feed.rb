@@ -11,12 +11,12 @@ class BreakingNewsFeed
 
   def notify_subscriber
     for observer in @observers
-      observer.sendNotification # > 1
+      observer._______ # > 1
     end
   end
 
   def set_breaking_news (breaking_news)
     @breaking_news = breaking_news
-    notify_subscriber # > 2
+    ___________ # > 2
   end
 end

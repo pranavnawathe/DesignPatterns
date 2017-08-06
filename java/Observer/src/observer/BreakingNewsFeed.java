@@ -18,11 +18,11 @@ public class BreakingNewsFeed {
 
 	public void setBreakingNews(String breakingNews) {
 		this.breakingNews = breakingNews;
-		notifySubsrcribers(); // > 1
+		___________(); // > 1
 	}
 	
 	private void notifySubsrcribers() {
 		for(Observer observer : observers)
-			observer.sendNotification(); // > 2
+			observer._________(); // > 2
 	}
 }

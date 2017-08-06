@@ -1,7 +1,7 @@
 class CNN
   def initialize (breaking_news_feed)
     @breaking_news_feed = breaking_news_feed
-    breaking_news_feed.subscribe(self) # > 3
+    breaking_news_feed.________(self) # > 3
   end
 
   def sendNotification

@@ -5,7 +5,7 @@ public abstract class Observer {
 	
 	public Observer(BreakingNewsFeed breakingNewsFeed) {
 		this.breakingNewsFeed = breakingNewsFeed;
-		breakingNewsFeed.subscribe(this); // > 3
+		breakingNewsFeed._________(this); // > 3
 	}
 	
 	public abstract void sendNotification();
