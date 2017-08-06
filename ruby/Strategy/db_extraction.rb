@@ -6,9 +6,7 @@ class DBExtraction < Extraction
   end
 
   def extract
-    open
-    print "I will extract by reading rows and columns\n"
-    close
+    _____________________ # <<4 <<5 <<6
   end
 
   private

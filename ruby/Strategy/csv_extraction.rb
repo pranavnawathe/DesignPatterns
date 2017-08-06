@@ -6,9 +6,7 @@ class CSVExtraction < Extraction
   end
 
   def extract
-    open
-    print "I will extract by seperating row by commas\n"
-    close
+    _____________________ # <<1 <<2 <<3
   end
 
   private

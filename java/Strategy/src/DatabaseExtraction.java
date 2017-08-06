@@ -1,12 +1,9 @@
+package Exercise;
 
 class DatabaseExtraction implements Extraction {
 
 	public void extract() {
-		// complete the method below
-		
-		open();
-		System.out.println("I will extract by reading rows and columns.");
-		close();
+		________________________ // <<4 <<5 <<6
 	}
 
 	public void open() {

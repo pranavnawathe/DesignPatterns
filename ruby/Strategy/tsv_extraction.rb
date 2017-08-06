@@ -6,9 +6,7 @@ class TSVExtraction < Extraction
   end
 
   def extract
-    open
-    print "I will extract by seperating row by tabs\n"
-    close
+    _____________________ # <<7 <<8 <<9
   end
 
   private

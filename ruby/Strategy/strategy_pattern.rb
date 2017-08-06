@@ -15,4 +15,5 @@ case datatype
     data = TSVData.new
 end
 
-data.extractData
+extraction = Extraction.new(data)
+extraction.extract

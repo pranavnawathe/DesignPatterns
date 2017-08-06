@@ -1,12 +1,9 @@
+package Exercise;
 
 class TSVExtraction implements Extraction {
 
 	public void extract() {
-		// complete the method below
-		
-		open();
-		System.out.println("I will extract by separating row by tabs.");
-		close();
+		_____________________ // << 7 <<8 <<9
 	}
 
 	public void open() {

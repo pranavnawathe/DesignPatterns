@@ -1,3 +1,4 @@
+package Exercise;
 
 interface Extraction {
 	public void extract();

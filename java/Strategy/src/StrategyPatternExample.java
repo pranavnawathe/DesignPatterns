@@ -1,3 +1,4 @@
+package Exercise;
 
 
 import java.util.Scanner;
@@ -13,13 +14,13 @@ public class StrategyPatternExample {
 		Data data = null;
 		switch (datatype) {
 		case "d":
-			data = new Database();
+			data = ____________________ //<<1
 			break;
 		case "c":
-			data = new CSVData();
+			data = ____________________ //<<2
 			break;
 		case "t":
-			data = new TSVData();
+			data = ____________________ //<<3
 			break;
 		}
 		

@@ -1,14 +1,9 @@
+package Exercise;
 
 class CSVExtraction implements Extraction {
 
 	public void extract() {
-		// complete the method below
-		
-		open();
-
-		System.out.println("I will extract by separating row by commas.");
-
-		close();
+		________________________ // <<1 <<2 <<3
 	}
 
 	public void open() {
