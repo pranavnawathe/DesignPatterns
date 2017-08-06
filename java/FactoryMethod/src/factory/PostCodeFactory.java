@@ -8,11 +8,11 @@ public class PostCodeFactory {
 	public static PostCode getInstance(Country country, String postalCode)
 	{
 		if (country == Country.US)
-			return new USPostCode(postalCode); //> 1
+			return new _______(postalCode); //> 1
 		if (country == Country.UK)
-			return new UKPostCode(postalCode); //> 2
+			return new ______(postalCode); //> 2
 		if (country == Country.IN)
-			return new INPostCode(postalCode); //> 3
+			return new ______(postalCode); //> 3
 		
 		return null;
 	}
