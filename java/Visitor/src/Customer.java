@@ -1,16 +1,17 @@
+package Exercise;
 
 import java.util.ArrayList;
 
-public class Customer implements Visitable {
+public class Customer implements _______________ {// <<1
 
 	String name;
 
 	private ArrayList<Order> orders = new ArrayList<Order>();
 
 	public void accept(Visitor visitor) {
-		visitor.visit(this);	
+		visitor._______________(this);// <<2	
 		for (Order eachOrder: orders){
-			eachOrder.accept(visitor);
+			eachOrder._______________(visitor);// <<3
 		}
 	}
 

@@ -2,7 +2,7 @@ require_relative 'visitable'
 require_relative 'visitor'
 require_relative 'order'
 
-class Customer < Visitable
+class Customer < _______________ # <<1
   attr_accessor :name
   def initialize(name)
     @name = name
@@ -10,9 +10,9 @@ class Customer < Visitable
   end
 
   def accept(visitor)
-    visitor.visit(self)
+    visitor._______________(self) #<<2
     for order in @orders
-      order.accept(visitor)
+      order._______________(visitor) # <<3
     end
   end
 

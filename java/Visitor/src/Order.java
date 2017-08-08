@@ -1,7 +1,8 @@
+package Exercise;
 
 import java.util.ArrayList;
 
-public class Order implements Visitable {
+public class Order implements _______________ { // <<5
 
 	String name;
 
@@ -11,12 +12,8 @@ public class Order implements Visitable {
 		this.name = name;
 	}
 
-	public String getName() {
-		return name;
-	}
-
 	public void accept(Visitor visitor) {
-		visitor.visit(this);
+		visitor._______________(this); // <<6
 	}
 
 	public void addItem(String item) {

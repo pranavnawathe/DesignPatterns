@@ -1,7 +1,7 @@
 require_relative 'visitable'
 require_relative 'visitor'
 
-class Order < Visitable
+class Order < _______________ # <<5
   attr_accessor :name
   def initialize(name)
     @name = name
@@ -9,7 +9,7 @@ class Order < Visitable
   end
 
   def accept(visitor)
-    visitor.visit(self)
+    visitor._______________(self) # <<6
   end
 
   def addItem(item)

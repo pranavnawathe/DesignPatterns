@@ -1,5 +1,6 @@
+package Exercise;
 
-public class GeneralReport implements Visitor{
+public class GeneralReport implements _______________{// <<4
 
 	private int customersNo;
 	private int ordersNo;

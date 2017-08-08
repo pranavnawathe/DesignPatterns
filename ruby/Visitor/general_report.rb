@@ -2,7 +2,7 @@ require_relative 'customer'
 require_relative 'visitor'
 require_relative 'order'
 
-class GeneralReport < Visitor
+class GeneralReport < _______________ # <<4
   attr_accessor :customers_no
   attr_accessor :orders_no
 
