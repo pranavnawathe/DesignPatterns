@@ -13,9 +13,9 @@ class ExpressionReader
     secondComponentExpression = NumberExpression.new(tokenList[2])
 
     if (tokenList[1] == '+')
-        return AddExpression.new(firstComponentExpression, secondComponentExpression)
+        return __________________ # <<3
     else
-        return SubtractExpression.new(firstComponentExpression, secondComponentExpression)
+        return __________________ # <<5
     end
   end
 end

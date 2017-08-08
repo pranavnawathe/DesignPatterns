@@ -1,3 +1,4 @@
+package exercise;
 // Compound expression
 public class AddExpression implements Expression
 {

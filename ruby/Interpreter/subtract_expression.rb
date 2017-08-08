@@ -1,6 +1,6 @@
 require_relative 'expression'
 
-class SubtractExpression < Expression
+class SubtractExpression < __________________ #5
   attr_accessor :leftExpression
   attr_accessor :rightExpression
 
@@ -11,6 +11,6 @@ class SubtractExpression < Expression
 
   # interpret each number and subtract them
   def interpret
-    return @leftExpression.interpret - @rightExpression.interpret
+    return __________________ #6
   end
 end

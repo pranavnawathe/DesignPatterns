@@ -1,3 +1,4 @@
+package exercise;
 //terminal expression
 public class NumberExpression implements Expression
 {

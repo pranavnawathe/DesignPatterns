@@ -1,7 +1,7 @@
 require_relative 'expression'
 
 # compound expression
-class AddExpression < Expression
+class AddExpression < __________________ # <<1
   attr_accessor :leftExpression
   attr_accessor :rightExpression
 
@@ -12,6 +12,6 @@ class AddExpression < Expression
 
   # interpret each number and add them
   def interpret
-    return @leftExpression.interpret + @rightExpression.interpret
+    return __________________ # <<2
   end
 end
