@@ -23,11 +23,11 @@ public class GUIAdapter {
 
 	public void display() {
 		if (isWindows) {
-			winGUI.displayAWTApp(); // > 1
+			winGUI.________(); // > 1
 		} else if (isLinux) {
-			linuxGUI.displaySwingApp(); // > 2
+			linuxGUI._______(); // > 2
 		} else {
-			macGUI.display(); // > 3
+			macGUI.______(); // > 3
 		}
 	}
 }

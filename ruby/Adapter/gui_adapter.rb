@@ -17,11 +17,11 @@ class GUIAdapter
 
   def display
     if @os.include? "windows"
-      @windows.display # >> 1
+      @windows._____ # >> 1
     elsif @os.include? "linux"
-      @linux.show # >> 2
+      @linux._____ # >> 2
     elsif @os.include? "Mac"
-      @mac.display_mac # >> 3
+      @mac._______ # >> 3
     end
   end
 
