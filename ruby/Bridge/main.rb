@@ -7,6 +7,6 @@ darkTheme =  DarkTheme.new
 lightTheme = LightTheme.new
 
 editor = Editor.new
-editor.set_theme(darkTheme) #>> 1
+editor.______(darkTheme) #>> 1
 terminal = Terminal.new
-terminal.set_theme(lightTheme) #>> 2
+terminal.______(lightTheme) #>> 2

@@ -1,6 +1,6 @@
 
-public class Terminal implements ApplicationComponent { //>6
-	Theme theme = new DarkTheme(); //> 7
+public class Terminal implements _________ { //>6
+	________ theme = new DarkTheme(); //> 7
 
 	@Override
 	public void setTheme(Theme theme) {

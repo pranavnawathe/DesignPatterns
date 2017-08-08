@@ -6,10 +6,10 @@ public class Client {
 		LightTheme lightTheme = new LightTheme();
 		
 		Editor editor = new Editor();
-		editor.setTheme(darkTheme); //> 1
+		editor._____(darkTheme); //> 1
 		
 		Terminal terminal = new Terminal();
-		terminal.setTheme(lightTheme); //> 2
+		terminal._____(lightTheme); //> 2
 	}
 
 }
