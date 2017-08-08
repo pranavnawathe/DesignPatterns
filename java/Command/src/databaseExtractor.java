@@ -1,3 +1,4 @@
+package Exercise;
 
 
 class databaseExtractor implements Extractor{

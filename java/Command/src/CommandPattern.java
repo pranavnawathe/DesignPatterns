@@ -1,3 +1,4 @@
+package Exercise;
 
 
 import java.util.Scanner;
@@ -22,15 +23,15 @@ public class CommandPattern {
 			Extractions extractionObj = null;
 			if (extension.equalsIgnoreCase("db"))
 				
-				extractionObj = new databaseExtractions(fileName);
+				extractionObj = _____________________ //<< 6
 
 			else if (extension.equalsIgnoreCase("csv"))
 				
-				extractionObj = new csvExtractions(fileName);
+				extractionObj = _____________________ //<< 7
 
 			else if (extension.equalsIgnoreCase("tsv"))
 
-				extractionObj = new tsvExtractions(fileName);
+				extractionObj = _____________________ //<< 8
 				
 			else
 				System.out.println("No such file format available");

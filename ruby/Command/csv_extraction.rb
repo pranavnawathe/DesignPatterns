@@ -10,7 +10,7 @@ class CSVExtraction < Extraction
   end
 
   def callCorrectExtraction
-    CSVExtractor.new.extract
+    __________________ # <<1
   end
 
 end

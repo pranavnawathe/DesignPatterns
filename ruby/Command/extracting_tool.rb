@@ -4,10 +4,10 @@ class ExtractingTool
   attr_accessor :extraction
 
   def setExtraction extraction
-    @extraction = extraction
+    @extraction = __________________ # <<4
   end
 
   def startExtraction
-    extraction.callCorrectExtraction
+    __________________.callCorrectExtraction # <<5
   end
 end

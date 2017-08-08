@@ -1,3 +1,4 @@
+package Exercise;
 
 
 class databaseExtractions implements Extractions{
@@ -11,7 +12,7 @@ class databaseExtractions implements Extractions{
 	}
 
 	public void callCorrectExtraction() {
-		dbExtractor.extract();
+		_____________________ //<< 3
 	}
 	
 }

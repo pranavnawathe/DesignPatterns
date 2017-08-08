@@ -10,7 +10,7 @@ class TSVExtraction < Extraction
   end
 
   def callCorrectExtraction
-    TSVExtractor.new.extract
+    __________________ # <<2
   end
 
 end
