@@ -1,8 +1,10 @@
+package exercise;
+
 public class CompositePattern {
-	 public static void main(String[] args) {
-	        //Initialize three blocks
-		 
-		 Block block1 = new Block(2,3);
+	public static void main(String[] args) {
+	        
+		 	//Initialize three blocks
+		 	Block block1 = new Block(2,3);
 	        Block block2 = new Block(1,4);
 	        Block block3 = new Block(3,7);
 
@@ -18,8 +20,8 @@ public class CompositePattern {
 	        structure2.add(block3);
 
 	        structure.add(structure1);
-	        structure.add(structure2);
+	        ____________________ //>3
 
-	        structure.assemble();
+	        ____________________ //>4
 	    }
 }

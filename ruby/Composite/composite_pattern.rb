@@ -18,6 +18,6 @@ structure1.add(block2);
 structure2.add(block3);
 
 structure.add(structure1);
-structure.add(structure2);
+____________________ # <<3
 
-structure.assemble;
+____________________ # <<4

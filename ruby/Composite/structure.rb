@@ -1,7 +1,7 @@
 require_relative 'group'
 
 # Collection/group of blocks
-class Structure
+class Structure < ____________________ # <<1
   # Collection of child group
   def initialize
     @groupList = Array.new
@@ -10,7 +10,7 @@ class Structure
   # assemble method should treat both single and group of blocks same.
   def assemble
     for group in @groupList
-      group.assemble
+      ____________________ # <<2
     end
     print "Creating a structure from Group objects.\n"
   end

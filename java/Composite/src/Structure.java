@@ -1,8 +1,9 @@
+package exercise;
 import java.util.ArrayList;
 import java.util.List;
 
-//Collection/group of blocks
-public class Structure implements Group {
+// Collection/group of blocks
+public class Structure ____________________ //>1 {
 	// Collection of child group.
 	private List<Group> groupList = new ArrayList<Group>();
 
@@ -10,7 +11,7 @@ public class Structure implements Group {
 	public void assemble() {
 		
 		for (Group group : groupList) {
-			group.assemble();
+			____________________ //>2
 		}
 		System.out.println("Creating a structure from Group objects.");
 	}
