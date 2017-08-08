@@ -1,4 +1,4 @@
-public class LevelTwo extends SupportChain { //> 3
+public class LevelTwo extends ______ { //> 3
 
 	@Override
 	public void handleRequest(IssueType issueType) {

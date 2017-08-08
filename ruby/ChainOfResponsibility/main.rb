@@ -6,8 +6,8 @@ generic_support = GenericSupport.new
 configuration_support = ConfigurationSupport.new
 production_support = ProductionSupport.new
 
-generic_support.set_next(configuration_support) #> 1
-configuration_support.set_next(production_support) #> 2
+generic_support._____(configuration_support) #> 1
+configuration_support._____(production_support) #> 2
 
-generic_support.handle_request("Production") #> 3
+generic_support._______("Production") #> 3
 generic_support.handle_request("Configuration")

@@ -10,8 +10,8 @@ public class Client {
 		SupportChain configSupport = new LevelTwo();
 		SupportChain productionSupport = new LevelThree();
 		
-		genericSupport.setNext(configSupport); //> 1
-		configSupport.setNext(productionSupport); // >2
+		genericSupport.____(configSupport); //> 1
+		configSupport._____(productionSupport); // >2
 		
 		genericSupport.handleRequest(IssueType.Production);
 		genericSupport.handleRequest(IssueType.Configuration);
