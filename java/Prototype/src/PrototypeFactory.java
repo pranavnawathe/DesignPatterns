@@ -1,3 +1,4 @@
+package exercise;
 public class PrototypeFactory
 {
     public static PrototypeCloneable getInstance(PrototypeCloneable cloneableObj) throws CloneNotSupportedException {

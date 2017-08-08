@@ -1,3 +1,4 @@
+package exercise;
 public class PrototypePattern
 {
     public static void main(String[] args)
@@ -9,7 +10,7 @@ public class PrototypePattern
         	baseCar.printDetails();
         	
         	System.out.println("\n");
-            Car otherVersion  = (Car) PrototypeFactory.getInstance(baseCar);
+            Car otherVersion  = ______________________ //<<3
             otherVersion.setName("Focus SE");
             otherVersion.setAutomaticClimateControl(true);
             otherVersion.setCruiseControl(true);

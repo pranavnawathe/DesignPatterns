@@ -1,4 +1,5 @@
-public class Car implements PrototypeCloneable {
+package exercise;
+public class Car implements ______________________ //<<1 {
 	private String name;
 	private int engineCapacity;
 	private int noOfSeats;
@@ -52,7 +53,7 @@ public class Car implements PrototypeCloneable {
 
 	public Car clone() throws CloneNotSupportedException {
 		System.out.println("Cloning Car object..");
-		return (Car) super.clone();
+		return (Car) ______________________ //<<2
 	}
 
 	public void printDetails() {

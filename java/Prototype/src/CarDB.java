@@ -1,3 +1,4 @@
+package exercise;
 
 public class CarDB {
 	// Assume that this class represents database and stores some values 

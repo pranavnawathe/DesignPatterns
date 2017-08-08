@@ -4,18 +4,26 @@ To create a prototype, 'cloneable' interface of Java is used most of the time. H
 
 'PrototypeCloneable' is an interface similar to cloneable.
 
-We are considering two cloneable classes here - 'Movie' and 'Show'. In main method, creation of original object its clone creation is implemented. 
+We are considering one cloneable class here - 'Car'. To create a new object of a car method, the initialization values are accessed from 'CarDB' object(which is representative of a database). We want to reduce the number of database hits and for this we use cloning. 
 
 Fill in the blanks in such way that the resulting code would be an implementation of Prototype design pattern. 
 
 After completion, the output should look as follows:
 
-Creating movie object..
-Current Movie : Inception
-Cloning Movie object..
-Current Movie : The Dark Knight
-------------------
-Creating show object..
-Current Show: F.R.I.E.N.D.S
-Cloning Show object..
-Current Show: Sherlock 
+Accessing database to fetch base values for car object
+Creating car object..
+Name: Focus S
+Engine Capacity: 2000
+Number of seats: 5
+Horse Power: 5
+Cruise Control: false
+Automatic Climate Control: false
+
+
+Cloning Car object..
+Name: Focus SE
+Engine Capacity: 2000
+Number of seats: 5
+Horse Power: 5
+Cruise Control: true
+Automatic Climate Control: true

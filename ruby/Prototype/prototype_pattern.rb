@@ -7,7 +7,7 @@ baseCar.printDetails
 
 print "\n"
 prototypeFactory = PrototypeFactory.new
-otherVersion  = prototypeFactory.getCloneOfObject(baseCar);
+otherVersion  = prototypeFactory.____________; # << 1
 otherVersion.name = 'Focus SE'
 otherVersion.automaticClimateControl = true
 otherVersion.cruiseControl = true
