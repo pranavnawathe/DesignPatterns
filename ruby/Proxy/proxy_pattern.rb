@@ -1,6 +1,6 @@
 require_relative 'movie'
 require_relative 'movie_player'
 
-moviePlayer = MoviePlayer.new("The Prestige")
+moviePlayer = _________________ # <<3
 print "#{moviePlayer.getMovieDetails}"
-moviePlayer.playMovie
+_________________ # <<4

@@ -1,7 +1,7 @@
 #this class acts as Proxy
 require_relative 'video_functions'
 
-class MoviePlayer < VideoFunctions
+class MoviePlayer < _________________ # <<1
   attr_accessor :movie
   attr_accessor :name
 
@@ -10,7 +10,7 @@ class MoviePlayer < VideoFunctions
   end
 
   def playMovie
-    movie.playMovie
+    _________________ # <<2
   end
 
   def getMovieDetails

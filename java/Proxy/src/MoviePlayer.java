@@ -1,7 +1,8 @@
+package exercise;
 
 
 // this class acts as Proxy
-class MoviePlayer implements VideoFunctions {
+class MoviePlayer ________________ //>> 1 {
 
 	Movie movie;
 	String name;
@@ -12,13 +13,13 @@ class MoviePlayer implements VideoFunctions {
 	}
 
 	public void playMovie() {
-		movie.playMovie();
+		________________ //>> 2
 	}
 
 	public String getMovieDetails() {
 		return movie.getMovieDetails();
 	}
-
+	
 	public void deleteMovie(String movieName) {
 		System.out.println("Permission denied!!");
 	}

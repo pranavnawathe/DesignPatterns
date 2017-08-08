@@ -1,3 +1,4 @@
+package exercise;
 
 
 // Implementation of video functions. This is implementation of real subject,
@@ -12,7 +13,7 @@ class Movie implements VideoFunctions {
 	}
 
 	public void playMovie() {
-		System.out.println("Playing movie: " + this.name + "\n");
+		System.out.println("Playing movie: " + this.name+ "\n");
 	}
 
 	public String getMovieDetails() {
