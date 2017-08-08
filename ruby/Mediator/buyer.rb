@@ -7,11 +7,11 @@ class Buyer
   def initialize(mediator,currency)
     @mediator = mediator
     @currency = currency
-    mediator.addBuyer(self)
+    mediator.____________(____________) # <<1 <<2
   end
 
   def attemptToPurchase(bid)
     print "Buyer attempting a bid of #{currency} #{bid}.\n"
-    return mediator.placeBid(bid, currency)
+    return mediator.____________(____________, currency) # <<3 <<4
   end
 end

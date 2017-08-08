@@ -6,7 +6,7 @@ class Seller
     @mediator = mediator
     @currency = currency
     @sellingPrice = sellingPrice
-    @mediator.addSeller(self)
+    @mediator.____________(self) # <<6
   end
 
   def getSellingPrice

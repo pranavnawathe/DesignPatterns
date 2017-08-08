@@ -1,4 +1,4 @@
-
+package Exercise;
 
 public class Buyer {
 	Mediator mediator;
@@ -8,12 +8,12 @@ public class Buyer {
 		super();
 		this.mediator = mediator;
 		this.currency = currency;
-		mediator.addBuyer(this); // blank 
+		mediator.____________(__________); // <<1 <<2 
 	}
 
 	public boolean attemptToPurchase(float bid) {
-		System.out.println("Buyer attempting a bid of " + currency +" " + bid + " .");
-		return mediator.placeBid(bid, currency); // blank
+		System.out.println("Buyer attempting a bid of " + currency +" " bid + " .");
+		return mediator.__________(__________, currency); // <<3 <<4
 	}
 	
 }

@@ -1,4 +1,4 @@
-
+package Exercise;
 
 public class MediatorPattern {
 

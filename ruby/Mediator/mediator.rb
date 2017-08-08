@@ -28,7 +28,7 @@ class Mediator
       return sellerAccepting;
     end
     dollarAmount = @converter.convert(bid, unitOfCurrency)
-    return seller.isBidAccepted(dollarAmount)
+    return seller.____________(dollarAmount) # <<5
 
   end
 end

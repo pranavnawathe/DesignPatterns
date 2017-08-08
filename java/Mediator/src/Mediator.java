@@ -1,3 +1,5 @@
+package Exercise;
+
 import java.util.ArrayList;
 
 public class Mediator {
@@ -27,6 +29,6 @@ public class Mediator {
 			return sellerAccepting;
 		}
 		float dollarAmount = converter.convert(bid, unitOfCurrency);
-		return seller.isBidAccepted(dollarAmount); // possible blank
+		return seller.___________(dollarAmount); // <<5
 	}
 }

@@ -1,4 +1,4 @@
-
+package Exercise;
 
 public class Seller {
 	
@@ -12,7 +12,7 @@ public class Seller {
 		this.mediator = mediator;
 		this.currency = currency;
 		this.sellingPrice = sellingPrice;
-		mediator.addSeller(this); //blank
+		mediator._____________(this); // <<6
 	}
 
 	public int getSellingPrice() {
@@ -24,11 +24,11 @@ public class Seller {
 	}
 
 	public boolean isBidAccepted(float bidInDollars) {
-		if (bidInDollars <= sellingPrice) {
+		if (bidInDollars >= sellingPrice) {
 			System.out.println("Seller accepts the bid of USD " + bidInDollars + ".\n");
 			return true;
 		} else {
-			System.out.println("Seller rejects the bid of USD " + bidInDollars + ".\n");
+			System.out.println("Seller rejects the bid of USD" + bidInDollars + " .\n");
 			return false;
 		}
 	}
